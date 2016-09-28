@@ -15,6 +15,7 @@
 		B7EDD8B01D9BB41700B2AFF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7EDD8AE1D9BB41700B2AFF7 /* LaunchScreen.storyboard */; };
 		B7EDD8BB1D9BB41700B2AFF7 /* CopyLabelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EDD8BA1D9BB41700B2AFF7 /* CopyLabelTests.m */; };
 		B7EDD8C61D9BB41700B2AFF7 /* CopyLabelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EDD8C51D9BB41700B2AFF7 /* CopyLabelUITests.m */; };
+		B7EDD8D51D9BB48C00B2AFF7 /* LYCopyLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EDD8D41D9BB48C00B2AFF7 /* LYCopyLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B7EDD8C11D9BB41700B2AFF7 /* CopyLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CopyLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7EDD8C51D9BB41700B2AFF7 /* CopyLabelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CopyLabelUITests.m; sourceTree = "<group>"; };
 		B7EDD8C71D9BB41700B2AFF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7EDD8D31D9BB48B00B2AFF7 /* LYCopyLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYCopyLabel.h; sourceTree = "<group>"; };
+		B7EDD8D41D9BB48C00B2AFF7 /* LYCopyLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYCopyLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				B7EDD8A41D9BB41700B2AFF7 /* AppDelegate.m */,
 				B7EDD8A61D9BB41700B2AFF7 /* ViewController.h */,
 				B7EDD8A71D9BB41700B2AFF7 /* ViewController.m */,
+				B7EDD8D31D9BB48B00B2AFF7 /* LYCopyLabel.h */,
+				B7EDD8D41D9BB48C00B2AFF7 /* LYCopyLabel.m */,
 				B7EDD8A91D9BB41700B2AFF7 /* Main.storyboard */,
 				B7EDD8AC1D9BB41700B2AFF7 /* Assets.xcassets */,
 				B7EDD8AE1D9BB41700B2AFF7 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EDD8D51D9BB48C00B2AFF7 /* LYCopyLabel.m in Sources */,
 				B7EDD8A81D9BB41700B2AFF7 /* ViewController.m in Sources */,
 				B7EDD8A51D9BB41700B2AFF7 /* AppDelegate.m in Sources */,
 				B7EDD8A21D9BB41700B2AFF7 /* main.m in Sources */,

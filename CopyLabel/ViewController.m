@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "LYCopyLabel.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    LYCopyLabel *lable = [[LYCopyLabel alloc]initWithFrame:CGRectMake(0, 100, 200, 100)];
+    lable.text = @"sajdlajkjdka";
+    [self.view addSubview:lable];
 }
 
 
